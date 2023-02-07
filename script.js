@@ -32,6 +32,7 @@ let faqcontainer = document.querySelectorAll(".accordion");
 //faqcontainer.onclick = functiononclick;
 
 for (i = 0; i < faqcontainer.length; i++) {
+
     faqcontainer[i].addEventListener("click", function () {
 
         this.classList.toggle("active");
@@ -47,11 +48,4 @@ for (i = 0; i < faqcontainer.length; i++) {
         }
 
     });
-}
-function functiononclick() {
-
-
-
-
-
 }
